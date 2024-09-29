@@ -31,6 +31,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-data-redis")
     implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3")
+    implementation("com.twelvemonkeys.imageio:imageio-jpeg:3.6")
     runtimeOnly("com.mysql:mysql-connector-j:9.0.0")
 
 
