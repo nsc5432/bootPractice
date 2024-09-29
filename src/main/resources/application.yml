@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 spring:
   redis:
     host: localhost
@@ -13,4 +13,4 @@ spring:
     password: password
     mapper-locations: classpath:/mapper/*.xml
 file:
-  upload-dir: C:/upload
+  upload-dir: /upload
